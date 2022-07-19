@@ -12,6 +12,7 @@ termcolor = "^1.1.0"
 hydra-core = "^1.2.0"
 PyVirtualDisplay = "^3.0"
 rl-games = "1.5.2"
+numpy = ">=1.16.4"
 
 [tool.poetry.dev-dependencies]
 
