@@ -30,7 +30,7 @@ env:
   controlType: osc  # options are {joint_tor, osc}
 
   asset:
-    assetRoot: "../../assets"
+    assetRoot: "../assets"
     assetFileNameFranka: "urdf/franka_description/robots/franka_panda_gripper.urdf"
 
   # set to True if you use camera sensors in the environment

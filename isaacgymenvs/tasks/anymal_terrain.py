@@ -207,7 +207,7 @@ class AnymalTerrain(VecTask):
         self.height_samples = torch.tensor(self.terrain.heightsamples).view(self.terrain.tot_rows, self.terrain.tot_cols).to(self.device)
 
     def _create_envs(self, num_envs, spacing, num_per_row):
-        asset_root = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../assets')
+        asset_root = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../assets')
         asset_file = self.cfg["env"]["urdfAsset"]["file"]
         asset_path = os.path.join(asset_root, asset_file)
         asset_root = os.path.dirname(asset_path)

@@ -72,7 +72,7 @@ class Cartpole(VecTask):
         lower = gymapi.Vec3(0.5 * -spacing, -spacing, 0.0) if self.up_axis == 'z' else gymapi.Vec3(0.5 * -spacing, 0.0, -spacing)
         upper = gymapi.Vec3(0.5 * spacing, spacing, spacing)
 
-        asset_root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../../assets")
+        asset_root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../assets")
         asset_file = "urdf/cartpole.urdf"
 
         if "asset" in self.cfg["env"]:

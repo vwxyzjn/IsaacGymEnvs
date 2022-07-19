@@ -220,7 +220,7 @@ class ShadowHand(VecTask):
         lower = gymapi.Vec3(-spacing, -spacing, 0.0)
         upper = gymapi.Vec3(spacing, spacing, spacing)
 
-        asset_root = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../assets'))
+        asset_root = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../assets'))
         shadow_hand_asset_file = os.path.normpath("mjcf/open_ai_assets/hand/shadow_hand.xml")
 
         if "asset" in self.cfg["env"]:

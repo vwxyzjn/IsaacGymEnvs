@@ -186,7 +186,7 @@ class FrankaCubeStack(VecTask):
         lower = gymapi.Vec3(-spacing, -spacing, 0.0)
         upper = gymapi.Vec3(spacing, spacing, spacing)
 
-        asset_root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../../assets")
+        asset_root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../assets")
         franka_asset_file = "urdf/franka_description/robots/franka_panda_gripper.urdf"
 
         if "asset" in self.cfg["env"]:

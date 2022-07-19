@@ -39,7 +39,7 @@ It then generates a zero rotation pose, and adjusts the pose into a T-Pose.
 """
 
 # import MJCF file
-xml_path = "../../../../assets/mjcf/amp_humanoid.xml"
+xml_path = "../../../assets/mjcf/amp_humanoid.xml"
 skeleton = SkeletonTree.from_mjcf(xml_path)
 
 # generate zero rotation pose

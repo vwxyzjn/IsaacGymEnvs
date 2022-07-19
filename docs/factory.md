@@ -8,11 +8,11 @@ Before starting to use Factory, we would **highly** recommend familiarizing your
 Assets
 ------
 
-Meshes for our assets are located in the [mesh subdirectory](../../assets/factory/mesh). The meshes for the electrical connectors are currently unavailable, as the raw designs were originally sourced from manufacturers and are undergoing approval for release.
+Meshes for our assets are located in the [mesh subdirectory](../assets/factory/mesh). The meshes for the electrical connectors are currently unavailable, as the raw designs were originally sourced from manufacturers and are undergoing approval for release.
 
-URDF files for our assets are located in the [urdf subdirectory](../../assets/factory/urdf/).
+URDF files for our assets are located in the [urdf subdirectory](../assets/factory/urdf/).
 
-There are also YAML files located in the [yaml subdirectory](../../assets/factory/yaml/). These files contain asset-related constants that are used by the Factory RL examples.
+There are also YAML files located in the [yaml subdirectory](../assets/factory/yaml/). These files contain asset-related constants that are used by the Factory RL examples.
 
 Onshape CAD files for all the assets will also be made available shortly.
 

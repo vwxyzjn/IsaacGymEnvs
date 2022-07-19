@@ -139,7 +139,7 @@ class Humanoid(VecTask):
         lower = gymapi.Vec3(-spacing, -spacing, 0.0)
         upper = gymapi.Vec3(spacing, spacing, spacing)
 
-        asset_root = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../assets')
+        asset_root = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../assets')
         asset_file = "mjcf/nv_humanoid.xml"
 
         if "asset" in self.cfg["env"]:
